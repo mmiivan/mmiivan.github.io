@@ -10,11 +10,8 @@ body {
     font-family: IBMPlexMono-Regular,monospace;
 }
 
-body { background: pink; }
-
 .navbar {
     background-color: rgb(201, 225, 241);
-    color: rgb(65, 61, 73);
     padding: 15px 20px;
     position: fixed;
     top: 0;
@@ -25,7 +22,7 @@ body { background: pink; }
 }
 
 .navbar a {
-    color: white;
+    color: rgb(65, 61, 73);
     text-decoration: none;
     margin-left: 15px;
 }
