@@ -4,12 +4,13 @@
   src: url(IBMPlexMono-Regular.ttf);
 }
 
-body { background: yellow; }
 
 body {
     margin: 0;
     font-family: IBMPlexMono-Regular,monospace;
 }
+
+body { background: yellow; }
 
 .navbar {
     background-color: rgb(201, 225, 241);
