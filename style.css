@@ -4,6 +4,7 @@
   src: url(IBMPlexMono-Regular.ttf);
 }
 
+body { background: yellow; }
 
 body {
     margin: 0;
