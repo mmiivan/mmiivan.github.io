@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: IBMPlexMono-Regular,monospace;
-    background: yellow;
+    background: rgb(255, 255, 236);
 }
 
 .navbar {
