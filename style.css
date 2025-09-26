@@ -1,6 +1,6 @@
 /* style.css */
 @font-face {
-  font-family: myFont;
+  font-family: IBMPlexMono-Regular;
   src: url(IBMPlexMono-Regular.ttf);
 }
 
@@ -9,6 +9,8 @@ body {
     margin: 0;
     font-family: IBMPlexMono-Regular,monospace;
 }
+
+body { background: pink; }
 
 .navbar {
     background-color: rgb(201, 225, 241);
@@ -43,5 +45,3 @@ body {
     margin: 20px auto;
     padding: 20px;
 }
-
-body { background: pink; }
