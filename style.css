@@ -33,7 +33,7 @@ body {
     padding: 20px;
 }
 
-.attempted_box {
+.box {
     width: 80%;
     max-width: 600px;
     min-width: 200px;
@@ -43,3 +43,5 @@ body {
     margin: 20px auto;
     padding: 20px;
 }
+
+body { background: pink; }
