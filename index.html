@@ -6,37 +6,48 @@
   <title>Heading Bar Example</title>
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
+        margin: 0;
+        font-family: Arial, sans-serif;
     }
 
     .navbar {
-      background-color: navy;
-      color: white;
-      padding: 15px 20px;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        background-color: navy;
+        color: white;
+        padding: 15px 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .navbar a {
-      color: white;
-      text-decoration: none;
-      margin-left: 15px;
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
     }
 
     .content {
-      margin-top: 70px;         /* push content down so it’s not hidden behind navbar */
-      padding: 20px;
+        margin-top: 70px;
+        padding: 20px;
     }
-  </style>
+    </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my first webpage.</p>
+
+    <div class="navbar">
+        <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class = "content">
+        <h1>Hello, world!</h1>
+        <p>This is my first webpage.</p>
+    </div>
 </body>
 
 <style>
